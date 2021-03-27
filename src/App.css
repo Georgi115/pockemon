@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-hover:hover {
+  background-color: gray;
+  cursor: pointer;
+}
