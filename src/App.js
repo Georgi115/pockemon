@@ -6,7 +6,7 @@ import { Route } from "react-router-dom";
 const App = () => {
   return (
     <div className="App">
-      <Route exact path="/pockemon/" render={() => <ListPockemon />}></Route>
+      <Route exact path="/" render={() => <ListPockemon />}></Route>
       <Route
         path="/pockemon/details/:id"
         render={() => <PockemonDetails />}
